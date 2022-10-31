@@ -1,0 +1,260 @@
+{
+  "search_metadata": {
+    "id": "635ad7a2351764cf43404027",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/a9c52bc86efd1cba/635ad7a2351764cf43404027.json",
+    "created_at": "2022-10-27 19:10:26 UTC",
+    "processed_at": "2022-10-27 19:10:26 UTC",
+    "google_url": "https://www.google.com/search?q=trump&oq=trump&gl=us&tbm=nws&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/a9c52bc86efd1cba/635ad7a2351764cf43404027.html",
+    "total_time_taken": 2.7
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "trump",
+    "google_domain": "google.com",
+    "gl": "us",
+    "device": "desktop",
+    "tbm": "nws"
+  },
+  "search_information": {
+    "news_results_state": "Results for exact spelling",
+    "query_displayed": "trump",
+    "total_results": 183000000,
+    "time_taken_displayed": 0.64,
+    "menu_items": [
+      {
+        "position": 1,
+        "title": "All",
+        "link": "https://www.google.com/search?q=trump&source=lnms&sa=X&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q_AUoAHoECAMQAg"
+      },
+      {
+        "position": 2,
+        "title": "News"
+      },
+      {
+        "position": 3,
+        "title": "Videos",
+        "link": "https://www.google.com/search?q=trump&tbm=vid&source=lnms&sa=X&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q_AUoAnoECAMQBA",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&tbm=vid"
+      },
+      {
+        "position": 4,
+        "title": "Images",
+        "link": "https://www.google.com/search?q=trump&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q_AUoA3oECAMQBQ",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&tbm=isch"
+      },
+      {
+        "position": 5,
+        "title": "Shopping",
+        "link": "https://www.google.com/search?q=trump&tbm=shop&source=lnms&sa=X&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q_AUoBHoECAMQBg",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&tbm=shop"
+      }
+    ]
+  },
+  "people_also_search_for": [
+    {
+      "name": "News about Donald Trump",
+      "news_results": [
+        {
+          "position": 1,
+          "link": "https://www.theguardian.com/us-news/live/2022/oct/27/midterms-trump-campaign-republicans-biden-economy-politics-latest",
+          "title": "Republican Liz Cheney endorses Michigan Democrat in midterm elections \u2013 live",
+          "source": "The Guardian",
+          "date": "6 hours ago",
+          "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/a6e7f8fe9c337789c3aff25f90dfda9def11e80215a01ffd9925e895a854725fcbd687ab79244e95d2361a4b65605bcea7f35ff315b638e1.jpeg"
+        },
+        {
+          "position": 2,
+          "link": "https://www.cnn.com/2022/10/27/politics/trump-miami-florida-rally-rubio-desantis/index.html",
+          "title": "Trump announces Florida rally with Rubio -- but not DeSantis",
+          "source": "CNN",
+          "date": "14 hours ago",
+          "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/a6e7f8fe9c337789c3aff25f90dfda9def11e80215a01ffd9925e895a854725f76b312a4f29b374769886b7acd74657fe1c41a1e47e7f3e5.jpeg"
+        },
+        {
+          "position": 3,
+          "link": "https://www.ktiv.com/2022/10/26/trumps-save-america-rally-comes-sioux-city/",
+          "title": "Trump\u2019s \u2018Save America Rally\u2019 comes to Sioux City",
+          "source": "KTIV",
+          "date": "22 hours ago",
+          "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/a6e7f8fe9c337789c3aff25f90dfda9def11e80215a01ffd9925e895a854725fbf5c706ec8a8c1d44859cd3f8aaf0f448f2ea2265f6abb9d.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "News about Donald Trump, DOJ",
+      "news_results": [
+        {
+          "position": 1,
+          "link": "https://www.politico.com/news/2022/10/25/national-archives-denies-trump-referral-to-doj-was-connected-to-dems-00063385",
+          "title": "National Archives denies Trump referral to DOJ was connected to Dems",
+          "source": "Politico",
+          "date": "2 days ago",
+          "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/a6e7f8fe9c337789c3aff25f90dfda9d6dc6278feae5b76dd0539cdbe83345e0eac06d93757f0b8a41ae5f21e6759dac77bf787b792c7833.jpeg"
+        },
+        {
+          "position": 2,
+          "link": "https://www.cnn.com/2022/10/27/politics/trump-doj-mar-a-lago-hearing/index.html",
+          "title": "Trump lawyers and DOJ met in sealed court hearing related to Mar-a-Lago investigation Thursday",
+          "source": "CNN",
+          "date": "1 hour ago",
+          "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/a6e7f8fe9c337789c3aff25f90dfda9d6dc6278feae5b76dd0539cdbe83345e05a25deaf0a1a6fe758ebc0f8e7cc35db2c394fd9185254ec.jpeg"
+        },
+        {
+          "position": 3,
+          "link": "https://www.nytimes.com/2022/10/26/us/politics/trump-declassified-documents-testimony.html",
+          "title": "Prosecutors Seek Testimony on Trump Declassifying Documents",
+          "source": "The New York Times",
+          "date": "19 hours ago",
+          "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/a6e7f8fe9c337789c3aff25f90dfda9d6dc6278feae5b76dd0539cdbe83345e0e3bb7a469b811e84309012fbf78716ca95f55aec036db09a.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "News about trial, jury, and Donald Trump",
+      "news_results": [
+        {
+          "position": 1,
+          "link": "https://www.usatoday.com/story/news/politics/2022/10/27/trump-is-elephant-in-courtroom-nyc-jury-selection/10600816002/",
+          "title": "Trump draws ire from potential jurors at trial of two of his companies",
+          "source": "USA Today",
+          "date": "8 hours ago",
+          "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/a6e7f8fe9c337789c3aff25f90dfda9d425dfbc5cf9f6e7acb11bc6d0fe6bcc70e82617971c08234d051c7821f6d48e4a490e66e487a19a6.jpeg"
+        },
+        {
+          "position": 2,
+          "link": "https://www.businessinsider.com/prosecutor-donald-trump-organization-trial-jury-comments-2022-10",
+          "title": "Prosecutor at Trump Org trial: No jury if we excuse all who dislike Trump",
+          "source": "Business Insider",
+          "date": "40 mins ago",
+          "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/a6e7f8fe9c337789c3aff25f90dfda9d425dfbc5cf9f6e7acb11bc6d0fe6bcc76c48de979f215997bf87dd2bb492db69dedcaf88049155e4.jpeg"
+        },
+        {
+          "position": 3,
+          "link": "https://www.businessinsider.com/trump-org-trial-jurors-two-dislike-how-he-ran-country-2022-10",
+          "title": "The Trump Org trial has 7 jurors so far; 2 dislike how he ran things",
+          "source": "Business Insider",
+          "date": "2 days ago",
+          "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/a6e7f8fe9c337789c3aff25f90dfda9d425dfbc5cf9f6e7acb11bc6d0fe6bcc7c6c4b20f9adb075c277ce8daa3a6b4aef085d29b13d33f37.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "News about Judge, Trump",
+      "news_results": [
+        {
+          "position": 1,
+          "link": "https://www.politico.com/news/2022/10/26/donald-trump-grand-jury-00063692",
+          "title": "Judge to consider unsealing Trump grand jury filings",
+          "source": "Politico",
+          "date": "20 hours ago",
+          "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/a6e7f8fe9c337789c3aff25f90dfda9df3aafdbf163e0cfe3deadd20c1a2e0ac8a911ccd5104e49f72295fbeafbaf0ae4aac8c3e7e467815.jpeg"
+        },
+        {
+          "position": 2,
+          "link": "https://www.cnn.com/2022/10/25/politics/trump-firewall-justice-department-cipollone-philbin-secret-grand-jury/index.html",
+          "title": "DOJ asks judge to force Trump White House lawyers to testify in Jan. 6 probe",
+          "source": "CNN",
+          "date": "1 day ago",
+          "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/a6e7f8fe9c337789c3aff25f90dfda9df3aafdbf163e0cfe3deadd20c1a2e0accc91452c995d060baae535c2bf7fcbea247ab6b4698792db.jpeg"
+        },
+        {
+          "position": 3,
+          "link": "https://www.nytimes.com/2022/10/25/us/politics/jan-6-trump-cipollone.html",
+          "title": "Justice Dept. Seeks to Force Trump White House Lawyers to Testify in Jan. 6 Inquiry",
+          "source": "The New York Times",
+          "date": "1 day ago",
+          "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/a6e7f8fe9c337789c3aff25f90dfda9df3aafdbf163e0cfe3deadd20c1a2e0ac60b19af4c7a9bd927d738b207e473d6c6d914742095a0fbe.jpeg"
+        }
+      ]
+    }
+  ],
+  "news_results": [
+    {
+      "position": 1,
+      "link": "https://finance.yahoo.com/news/1-barrack-says-hoped-trump-182046576.html",
+      "title": "UPDATE 1-Barrack says he hoped Trump ties would appeal to UAE; denies being agent",
+      "source": "Yahoo Finance",
+      "date": "49 mins ago",
+      "snippet": "Tom Barrack, a onetime fundraiser for Donald Trump, acknowledged under \ncross-examination on Thursday that he hoped his ties to the...",
+      "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/28fe12a8abbab1b10119f288d7ebb91e5c29e583fa57c30a80a1061684372773.jpeg"
+    },
+    {
+      "position": 2,
+      "link": "https://finance.yahoo.com/news/trumps-company-dont-monitor-181016003.html",
+      "title": "Trump's company: We don't need a monitor",
+      "source": "Yahoo Finance",
+      "date": "1 hour ago",
+      "snippet": "Donald Trump's namesake company urged a New York judge to reject a demand \nby the state's attorney general to appoint a monitor to oversee...",
+      "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/28fe12a8abbab1b1a5ee11ab6d987c049b8aa15bd0f5e6bd7941d528da4d5cf7.jpeg"
+    },
+    {
+      "position": 3,
+      "link": "https://www.nytimes.com/2022/10/27/opinion/kari-lake-glenn-youngkin-post-trump-republicans.html",
+      "title": "Opinion | Considering the Post-Trump Era in a Tucson Sports Bar",
+      "source": "The New York Times",
+      "date": "10 hours ago",
+      "snippet": "What if the post-Trump era has already started? On the trail with Kari Lake \nand Glenn Youngkin.",
+      "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/28fe12a8abbab1b1ea97003fe7c028bc08157bf440d5c5f0963d63acc9b1f107.jpeg"
+    },
+    {
+      "position": 4,
+      "link": "https://www.washingtonpost.com/religion/2022/10/27/antisemitism-kanye-trump-adidas-jews/",
+      "title": "Kanye, Trump and the return of overt American antisemitism",
+      "source": "The Washington Post",
+      "date": "3 hours ago",
+      "snippet": "Longtime watchdogs of antisemitism say there is nothing new about the kinds \nof derogatory comments about Jews that the rapper Ye,...",
+      "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/28fe12a8abbab1b142404ee5b57a825abece95e9d64d1b7ce8d62a40a11e34b2.jpeg"
+    },
+    {
+      "position": 5,
+      "link": "https://www.cnn.com/2022/10/27/politics/trump-desantis-florida-rally-2024/index.html",
+      "title": "Donald Trump isn't waiting for 2024 to snub Ron DeSantis",
+      "source": "CNN",
+      "date": "3 hours ago",
+      "snippet": "Donald Trump will rally Florida Republicans just days before the midterm \nelections. But Ron DeSantis, the state's Republican governor,...",
+      "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/28fe12a8abbab1b123aecb9dab6b466db021246eb707d14fc7bfe5eb3f5147bc.jpeg"
+    },
+    {
+      "position": 6,
+      "link": "https://www.nytimes.com/2022/10/27/us/politics/jd-vance-trump-ohio.html",
+      "title": "As J.D. Vance Courts Ohio, His Fealty to Trump Proves Double-Edged",
+      "source": "The New York Times",
+      "date": "6 hours ago",
+      "snippet": "The Republican Senate candidate changed his tune on Donald Trump and now \nhas his endorsement, but a remark by the former president about...",
+      "thumbnail": "https://serpapi.com/searches/635ad7a2351764cf43404027/images/28fe12a8abbab1b17a10dcf4ac3592a3e33062b1fd297ba5b2728fd8983852d2.jpeg"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=trump&tbm=nws&ei=pNdaY8GLNMOg5NoPhdGR8AI&start=10&sa=N&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q8NMDegQIARAW",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=trump&tbm=nws&ei=pNdaY8GLNMOg5NoPhdGR8AI&start=10&sa=N&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q8tMDegQIARAE",
+      "3": "https://www.google.com/search?q=trump&tbm=nws&ei=pNdaY8GLNMOg5NoPhdGR8AI&start=20&sa=N&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q8tMDegQIARAG",
+      "4": "https://www.google.com/search?q=trump&tbm=nws&ei=pNdaY8GLNMOg5NoPhdGR8AI&start=30&sa=N&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q8tMDegQIARAI",
+      "5": "https://www.google.com/search?q=trump&tbm=nws&ei=pNdaY8GLNMOg5NoPhdGR8AI&start=40&sa=N&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q8tMDegQIARAK",
+      "6": "https://www.google.com/search?q=trump&tbm=nws&ei=pNdaY8GLNMOg5NoPhdGR8AI&start=50&sa=N&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q8tMDegQIARAM",
+      "7": "https://www.google.com/search?q=trump&tbm=nws&ei=pNdaY8GLNMOg5NoPhdGR8AI&start=60&sa=N&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q8tMDegQIARAO",
+      "8": "https://www.google.com/search?q=trump&tbm=nws&ei=pNdaY8GLNMOg5NoPhdGR8AI&start=70&sa=N&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q8tMDegQIARAQ",
+      "9": "https://www.google.com/search?q=trump&tbm=nws&ei=pNdaY8GLNMOg5NoPhdGR8AI&start=80&sa=N&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q8tMDegQIARAS",
+      "10": "https://www.google.com/search?q=trump&tbm=nws&ei=pNdaY8GLNMOg5NoPhdGR8AI&start=90&sa=N&ved=2ahUKEwjB7dynjoH7AhVDEFkFHYVoBC4Q8tMDegQIARAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&start=10&tbm=nws",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&start=10&tbm=nws",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&start=10&tbm=nws",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&start=20&tbm=nws",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&start=30&tbm=nws",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&start=40&tbm=nws",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&start=50&tbm=nws",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&start=60&tbm=nws",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&start=70&tbm=nws",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&start=80&tbm=nws",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&q=trump&start=90&tbm=nws"
+    }
+  }
+}
