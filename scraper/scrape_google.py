@@ -1,10 +1,10 @@
-# Scrape google news from a specific keyword
+# Scrape google news from a specific keyword using beautiful soup
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 import requests
 
 root = "https://google.com"
-keyword = "biden"
+keyword = "putin"
 # link = f"https://www.google.com/search?q={keyword}&sxsrf=ALiCzsbQk2to4N259vd7Gg-iHM_tF-ySCA:1666453257763&source=lnms&tbm=nws&sa=X&ved=2ahUKEwjfsNqTlvT6AhVji8MKHdaHDQMQ_AUoAXoECAEQAw&biw=1920&bih=941&dpr=1"
 headers = {"User-Agent": "Mozilla/5.0"}
 
@@ -20,7 +20,16 @@ def main(keyword, loops: int = 6) -> list[dict[str]]:
     return news_list
 
 
-def news(link: str, save_csv: int = 0) -> list[dict[str]]:
+def news(link: str, save_csv: int = 0) -> tuple[list[str], str]:
+    """Scrapes google news based on a keyword
+
+    Parameters:
+        link(str):
+
+    Returns:
+        news_list(list[str])
+        link to the next page(str)
+    """
     req = Request(link, headers=headers)
     webpage = urlopen(req).read()
     # With this we get a list of all webs that have articles on what we are
@@ -75,16 +84,17 @@ def news(link: str, save_csv: int = 0) -> list[dict[str]]:
                                 f"{title}, {time}, {description}, {link}\n"
                             )
             # Error catching and skipping
-            except UnicodeEncodeError:
-                print("There was a unicoder error")
-                pass
+            except UnicodeEncodeError as e:
+                print("There was a unicoder error", e)
+                continue
 
-            except IndexError:
-                print("Something went wrong, IndexError")
-                pass
+            except IndexError as i:
+                print("Something went wrong, IndexError:", i)
+                print()
+                continue
 
-            except TypeError:
-                print("End of the content")
+            except TypeError as t:
+                print("End of the content", t)
 
         # Scrape all available pages
         next = soup.find("a", attrs={"aria-label": "Nästa sida"})
