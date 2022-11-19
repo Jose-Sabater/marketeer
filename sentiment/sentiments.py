@@ -4,9 +4,10 @@ import sys
 from scraper import rss_scraper, scrape_google
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
-sys.path.append("..")
 sent_analyzer = SentimentIntensityAnalyzer()
-RSS_URL = "https://finance.yahoo.com/news/rssindex"
+sys.path.append("..")
+
+# RSS_URL = "https://finance.yahoo.com/news/rssindex"
 
 
 def ggl_sent_analyzer(keyword: str, content: str) -> list[str]:
@@ -20,6 +21,15 @@ def ggl_sent_analyzer(keyword: str, content: str) -> list[str]:
 
 
 def check_sensitivity(sentence: str) -> dict[float]:
+    """Calculates the polarity scores using VaderSentiment
+
+    Parameters:
+        sentence (str): the string you want to check the sentiment
+
+    Returns:
+        (dict[float]) : a dictionary witht he sentiment values pos, neg, neu,
+        compound as per https://github.com/cjhutto/vaderSentiment
+    """
     pos = sent_analyzer.polarity_scores(sentence)["pos"]
     neg = sent_analyzer.polarity_scores(sentence)["neg"]
     neu = sent_analyzer.polarity_scores(sentence)["neu"]
@@ -28,6 +38,16 @@ def check_sensitivity(sentence: str) -> dict[float]:
 
 
 def stock_ggl_sentiment(keyword: str) -> tuple[pd.DataFrame, dict[float]]:
+    """Check the sentiment of a google news search
+
+    Parameters:
+        keyword (str): the information you want to look up in google news
+
+    Returns:
+        ggl_news_df (pd.Dataframe): a dataframe with your google news
+        sentiment_summary (dict[float]) : a dictionary with the vader
+        sentiment of your search
+    """
     ggl_news_df = pd.DataFrame(scrape_google.main(keyword))
 
     ggl_news_df["pos"] = (
@@ -48,24 +68,26 @@ def stock_ggl_sentiment(keyword: str) -> tuple[pd.DataFrame, dict[float]]:
     ) / 2
 
     print(ggl_news_df.head())
-    # print(ggl_news_df[["pos", "neu", "neg", "compound"]].describe())
     stats_news = ggl_news_df[["pos", "neu", "neg", "compound"]].describe()
     print(stats_news)
     _sentiment_summary = ggl_news_df[["pos", "neu", "neg", "compound"]].mean()
     sentiment_summary = _sentiment_summary.to_dict()
     print(sentiment_summary)
 
-    # if ggl_news_df["pos"].mean(axis=0) > ggl_news_df["neg"].mean(axis=0):
-    #     print("has a positive sentiment")
-    # else:
-    #     print("has a negative sentiment")
-
     return ggl_news_df, sentiment_summary
 
 
-def yahoo_rss_sentiment() -> dict[str]:
+def yahoo_rss_sentiment(rss_url) -> dict[str]:
+    """Returns the titles and vader sentiment of the selected rss
+
+    Parameters:
+        rss_url (str): a valid RSS URL
+
+    Returns:
+        Titles from the RSS feed and their sentiment (List[Dict[str]])
+    """
     yh_sent_dict = []
-    for title in rss_scraper.get_titles(RSS_URL):
+    for title in rss_scraper.get_titles(rss_url):
         yahoo_sent = sent_analyzer.polarity_scores(title)
         yahoo_sent["title"] = title
         yh_sent_dict.append(yahoo_sent)

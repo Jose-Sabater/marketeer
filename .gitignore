@@ -1,2 +1,7 @@
 *.csv
 /venv
+.env
+test_scrape.py
+*.parquet
+/stocks/.ipynb_checkpoints
+__pycache__
