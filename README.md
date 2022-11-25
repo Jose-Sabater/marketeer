@@ -8,4 +8,4 @@ Explore different types of Sentiment Analysis. Using Transformers or VaderSentim
 ### Stocks
 Contains Jupyter Notebooks that combine Scraping, Sentiment analysis and Stock statistical Analysis  
 For example the result of ploting the daily sentiment of reddit posts vs the stock market closing price
-[!alt text](/assets/output.png)
+[!Alt text](/assets/output.png)
