@@ -1,9 +1,9 @@
-# Marketeer :mag_right: :computer: :smiley: Sentiment Analysis related to stocks
+# Marketeer :mag_right: :computer: :smiley: Sentiment Analysis
 
 ## This project is subdivided in three sections:
 ### Scraping
-Scrape Datasets from multiple sources (Twitter, Reddit and Google News)
+Scrape Datasets from multiple sources (Twitter, Reddit and Google News)  
 ### Sentiment
-Explore different types of Sentiment Analysis
+Explore different types of Sentiment Analysis. Using Transformers or VaderSentiment
 ### Stocks
 Contains Jupyter Notebooks that combine Scraping, Sentiment analysis and Stock statistical Analysis
