@@ -1,3 +1,4 @@
+# Another google news scraper from SerpaAPI
 from serpapi import GoogleSearch
 import json
 
