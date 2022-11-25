@@ -1,4 +1,4 @@
-# Merketeer -- Sentiment Analysis related to stocks"
+# Merketeer :mag_right: :computer: :smiley: Sentiment Analysis related to stocks"
 
 ## This project is subdivided in three sections:
 ### Scraping
